@@ -1,4 +1,4 @@
-var map2 = L.map('map2').setView([37.748, -122.433], 13);
+var map2 = L.map('map2').setView([37.748, -122.433], 11);
 
 var redlineMap =  L.tileLayer('https://api.mapbox.com/styles/v1/ainsleykm/ck3yv1fvu0mb71cplzo6yuk1k/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYWluc2xleWttIiwiYSI6ImNrMmt1cDhnaTAwZDgzY2xrcW1zamIxNGgifQ.-0f1V1moN7hnx8mzPD7hxQ', {
     attribution: 'Map data &copy; <a href="https://www.mapbox.com/">Mapbox</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',

@@ -1,4 +1,4 @@
-var map1 = L.map('map1').setView([37.758, -122.433], 13);
+var map1 = L.map('map1').setView([37.758, -122.433], 12);
 //Load tile layer
   L.tileLayer('https://api.mapbox.com/styles/v1/ainsleykm/ck3uwpmn40uxn1cmjirbovtfg/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYWluc2xleWttIiwiYSI6ImNrMmt1cDhnaTAwZDgzY2xrcW1zamIxNGgifQ.-0f1V1moN7hnx8mzPD7hxQ', {
     attribution: 'Map data &copy; <a href="https://www.mapbox.com/">Mapbox</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
