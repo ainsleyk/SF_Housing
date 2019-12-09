@@ -1,0 +1,79 @@
+<html>
+<head>
+  <title> San Francisco Housing History </title>
+
+  <link href="leaflet.css" rel="stylesheet" />
+  <link href='styles.css' rel='stylesheet' />
+  <link href="https://fonts.googleapis.com/css?family=Asap&display=swap" rel="stylesheet"/>
+  <link href="MarkerCluster.css" rel="stylesheet" />
+  <link href="MarkerCluster.Default.css" rel="stylesheet" />
+
+
+  <script src="leaflet.js"></script>
+  <script src="leaflet.markercluster.js"></script>
+  <script src="jquery-3.4.1.min.js"></script>
+
+
+  <script src="leaflet-side-by-side-gh-pages\leaflet-side-by-side-gh-pages\leaflet-side-by-side.js"></script>
+
+
+</head>
+<body>
+
+<h1> HOLC Redlining an Epilouge: San Francisco </h1>
+  <h3>What is was the HOLC?</h3>
+      <p> With recent conversation surrounding loan debt and affirmative action, it is important that we reflect on the actions from our past as a nation as we move towards the future. This wealth and race basis were taken into play when the Home Owners’ Loan Corporation classified neighborhoods desirability and acceptance for loans. The HOLC was born from the New Deal and promised to alleviate stress from the Great Depression. Neighborhoods were graded for protentional risk for default on a loan and desirability of the overall area. Although these other factors were included in their survey, the determination was heavily race based. Low graded areas had a high number of migrants and people of color. These areas were not eligible for the assistance programs that rolled out with the New Deal. Banks would deny loans based on the areas being risky. This “perpetuate systematic segregation of minority groups in the United States”. As a result, families have lost out on the generational wealth and real estate that have propelled many different neighborhoods across America for generations. <a href= "Final_Paper_McCullough.pdf" target="_blank"> Source</a> </p>
+
+      <p> <a href= "https://www.kcet.org/shows/city-rising/gentrification-is-about-power-so-whats-community-got-to-do-with-it" target="_blank"> City Rising </a> provides a background of the Home Owner’s Loan Corporation in California.</p>
+
+          <p><iframe width="560" height="315" src="https://www.youtube.com/embed/11508ex1Xxg?start=383" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </p>
+
+      <p>In San Francisco the story plays out similarly to how it has across big cities in the United States. The long term, persistent removal and control of how people of color exist in spaces. <a href= "https://www.antievictionmap.com" target= "_blank"> The Anti- Eviction Mapping Project</a>’s zine <a href="https://www.antievictionmap.com/dislocationblack-exodus" target="_blank"> Black Exodus </a> shows the displacement and segregation through the eyes of community members and their experiences with housing, schooling, and their enviroment.</p>
+          <p><iframe title="vimeo-player" src="https://player.vimeo.com/video/230481085" width="640" height="360" frameborder="0" allowfullscreen></iframe></p>
+          <!-- Takes way too long to load -->
+          <!-- <p><iframe src="https://ia803006.us.archive.org/25/items/dislocationblackexodus/%28Dis%29location_BlackExodus.pdf"
+          width="800px" height="600px"> </iframe>
+          </p> -->
+
+  <h3>Eviction Notices</h3>
+    <p>Removing residents from their homes can happen for several reasons, generally the most common is a lack of payment. However, the fault can be placed more on the structure of the housing authorities not defending long term residents in an area that is seeing a large influx of big money. As Phyllis Bowie explained signing a lease with Rent Control often not held. One of the main reasons for this in San Francisco is the Ellis Act. <a href= https://www.stimmel-law.com/en/articles/ellis-act-state-law-restricting-change-use-rental-property target= _blank> The Ellis Act </a> gives landlords the unconditional right to evict all tenants to “go out of business.” This is often used to change the use of the building, such as converting to condos. Leaving thousands out of housing. The Anti Eviction Mapping Project shows the number of <i>just</i> <a href= http://www.antievictionmappingproject.net/ellis.html target= _blank> Ellis Act evictions</a> since its implementation. HOLC Grades are as follows:
+        <ul>
+          <div id= 'green'><li> Green: Best </li></div>
+          <div id= 'blue'><li> Blue: Still Desirable </li></div>
+          <div id= 'yellow'><li> Yellow: Definitely Declining </li></div>
+          <div id= 'red'><li> Red: Hazardous </li></div>
+        </p>
+<!-- Load Eviction Notices map container and script -->
+<div id='map1'></div>
+<script src= "scripts.js"></script><br>
+
+  <p>The number of evictions for all reasons is higher in previously red lined areas. To account for the different number of HOLC areas in each grade an average was taken for each color grade. However not only do Red areas have the highest raw number of eviction notices at 2,044 since 2015, they also have one of the smaller number of areas assigned to them, at 17. The best grade, green, has 13 total areas and only 56 eviction notices since 2015. </p>
+      <img src='evictions.PNG' alt= 'evictions graph'>
+
+<h3>Buyouts</h3>
+  <p>Landlords can offer to buyout tenants from the lease, effectively an eviction notice. Buyouts speed up an eviction process, can prevent tenants from suing, and can restrict rights. Landlords often retaliate if tenants do not take buyouts. Often times those who take buyouts have to use the funds to relocate outside of the city leaving their home. <a href= https://medium.com/@tarintowers/on-selling-out-how-to-negotiate-a-tenant-buyout-in-san-francisco-7ec6c4a605db target _blank> Tenants do not have to accept the buyouts</a>, but that still does not stop long term displacements. </p>
+
+
+<!-- Load Buyout map container and script -->
+<div id= 'map2'></div>
+<script src= 'scripts2.js'></script>
+<br>
+  <p> Darker red areas have a higher number of buyouts than ligher colored areas.</p>
+  <p>From 2015-2019 the areas previously defined as ‘Green, Best’, have only had 16 buyouts out of the 1,192 total. On average previously ‘hazardous’ have had the highest number of buyouts buy a wide margin. This shows the persistent trend that neighborhoods formerly of color are being be repurposed to serve new communities that have an excess of wealth. Although buyouts may seem like a favorable solution, they only speak to the disregard for those communities. </p>
+
+  <img src='buyouts.PNG' alt='buyout chart'>
+
+
+  <p>The areas that have been hit hardest by gentrification are those previously ‘Red lined’ by the HOLC. People in these areas were denied many economic freedoms in the early 40s because of the government’s decision to segregate communities racially and financially. What we see is that those areas, because of a loss in generationally wealth, are unable to defend their communities from slumlords and big tech buy outs. This is a trend across the United States, <a href = 'https://www.washingtonpost.com/news/wonk/wp/2018/03/28/redlining-was-banned-50-years-ago-its-still-hurting-minorities-today/' target= '_blank'> residents are being forced out and displaced.</a> Or have seen the persistence of a continually underserved community. </p>
+
+<div id= 'footer'> References:
+  <a href='https://datasf.org/opendata/' target= '_blank'> San Francisco Data Portal</a>,
+  <a href='https://dsl.richmond.edu/panorama/redlining/' target= '_blank'> Mapping Inequality: HOLC Shapefiles</a>,
+  <a href= 'https://www.antievictionmap.com/' target= '_blank'> Anti-Eviction Mapping Project</a>,
+  <a href= 'https://github.com/Leaflet/Leaflet.markercluster' target= '_blank'> Leaflet Clustering </a>,
+  <a href= 'https://github.com/digidem/leaflet-side-by-side' target= '_blank'> Leaflet Side by Side </a>,
+   <a href="https://www.flaticon.com/authors/freepik" >Icons</a>
+</div>
+
+</body>
+</html>

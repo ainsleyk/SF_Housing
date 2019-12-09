@@ -1,0 +1,138 @@
+#map1 {
+  height: 70%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+  border-color: white;
+
+}
+
+#map2 {
+  height: 70%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+}
+
+/* #map-container {
+  height: 70%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+}
+
+.map {
+  height: 70%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+} */
+
+/* #before{
+  height: 70%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+}
+
+#after{
+  height: 70%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+} */
+
+h1 {
+  font-family: 'Georgia', serif;
+  font-size: 4em;
+  text-align: center;
+}
+
+h3
+{
+  font-family: 'Asap', sans-serif;
+  font-size: 1.7em;
+  text-align: center;
+}
+
+h4{
+    font-family: 'Asap', sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+p{
+  font-family: 'Asap', sans-serif;
+  text-align: center;
+  font-size: 1.15em;
+}
+
+a{
+  color:#CA8AFF;
+}
+
+body{
+  background-color: #000000;
+  color:#FFFFFF;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.leaflet-control-layers-expanded {
+  background: #999;
+  font-family: 'Asap', sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  border: 'solid'
+}
+
+ul {
+  text-align: center;
+   list-style: inside;
+}
+
+#green{
+  color: green;
+  font-family: 'Asap', sans-serif;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+#blue{
+  color: #3792cb;
+  font-family: 'Asap', sans-serif;
+  text-align: center;
+  font-size: 1.3em;
+    font-weight: bold;
+}
+
+#yellow{
+  color: yellow;
+  font-family: 'Asap', sans-serif;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+#red{
+  color: red;
+  font-family: 'Asap', sans-serif;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+#footer{
+  font-family: 'Asap', sans-serif;
+  text-align: center;
+  font-size: .95em;
+  color: #d3d3d3
+}
