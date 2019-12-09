@@ -1,6 +1,6 @@
 #map1 {
-  height: 70%;
-  width: 80%;
+  height: 80%;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
   border: solid;
@@ -9,44 +9,12 @@
 }
 
 #map2 {
-  height: 70%;
-  width: 80%;
+  height: 80%;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
   border: solid;
 }
-
-/* #map-container {
-  height: 70%;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  border: solid;
-}
-
-.map {
-  height: 70%;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  border: solid;
-} */
-
-/* #before{
-  height: 70%;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  border: solid;
-}
-
-#after{
-  height: 70%;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  border: solid;
-} */
 
 h1 {
   font-family: 'Georgia', serif;
